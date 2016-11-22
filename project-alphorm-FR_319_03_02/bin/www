@@ -1,18 +1,18 @@
- #!/usr/bin/env node
+#!/usr/bin/env node
 
 /**
  * Module dependencies.
  */
 
 var app = require('../app');
-var debug = require('debug')('project-1:server');
+var debug = require('debug')('project-alphorm:server');
 var http = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '4s000');
+var port = normalizePort(process.env.PORT || '5000');
 app.set('port', port);
 
 /**
